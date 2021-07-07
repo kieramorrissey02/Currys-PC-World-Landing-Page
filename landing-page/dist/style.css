@@ -1,0 +1,138 @@
+@media (max-width:1000px)
+body {
+  background-color:lightblue;
+}
+
+#header {
+  height:130px;
+}
+
+#form {
+  
+}
+#header-img {
+ 
+}
+
+#email {
+  padding:5px;
+}
+
+h1 {
+  font-family:Tahoma, sans serif;
+  text-align:center;
+}
+
+h3 {
+  font-family:Tahoma, sans serif;
+}
+
+h5 {
+  font-family:Tahoma, sans serif;
+}
+
+p {
+  font-family:Tahoma, sans serif;
+}
+
+li {
+  font-family:Tahoma, sans serif;
+}
+
+#nav-bar {
+list-style-type:none;
+overflow:hidden;
+position:fixed;
+top:0px;
+left:1058px;
+}
+  
+a:link {
+  color: white;
+  background-color:blue;
+  padding:20px;
+  text-decoration:none;
+  font-family:Tahoma, sans serif;
+  text-align:center;
+  float:right;
+}
+
+a:visited {
+  color:white;
+  background-color:blue;
+  padding:20px;
+  text-decoration:none;
+  font-family:Tahoma, sans serif;
+  text-align:center;
+  float:right;
+}
+
+a:hover {
+  color:blue;
+  background-color:white;
+  transform:scale(1.5);
+  padding:20px;
+  text-decoration:none;
+  font-family:Tahoma, sans serif;
+  text-align:center;
+  float:right;
+}
+
+a:active {
+  color: white;
+  background-color:blue;
+  padding:20px;
+  text-decoration:none;
+  font-family:Tahoma, sans serif;
+  text-align:center;
+  float:right;
+}
+
+.nav-link {
+  
+}
+
+#video {
+  
+}
+
+#submit {
+  background-color:blue;
+  padding:10px 20px;
+  color:white;
+  border:5px solid navy;
+}
+
+#submit:hover {
+  transform:scale(1.5);
+}
+
+#box-container {
+  display:flex;
+  flex-direction:row;
+  height:500px;
+  width:100%;
+  justify-content:space-around;
+  align-items:center;
+}
+
+#box-1 {
+  height:450px;
+  width:250px;
+  border:5px solid black;
+  padding:20px;
+}
+
+#box-2 {
+ height:450px;
+ width:250px;
+ border:5px solid black;
+ padding:20px;
+}
+
+#box-3 {
+  height:450px;
+  width:250px;
+  border:5px solid black;
+  padding:20px;
+}
